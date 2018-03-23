@@ -170,6 +170,13 @@ const SideNav = React.createClass({
             sourcePrefix={sourcePrefix}
           />
         ) : null}
+        <NavBlock
+          icon="cog-thick"
+          link={`${sourcePrefix}/ifql`}
+          location={location}
+        >
+          <NavHeader link={`${sourcePrefix}/ifql`} title="IFQL Builder" />
+        </NavBlock>
       </NavBar>
     )
   },
